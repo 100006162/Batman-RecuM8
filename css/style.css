@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Raleway:ital,wght@0,100;1,100&display=swap');
+
+.text {
+    font-size: 22px;
+    text-align: justify;
+    padding-right: 5px; 
+    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+.header {
+background-image: url("../img/header_background.jpeg");    
+height: 100vh;
+color: azure;
+padding: 30px;
+background-size:cover;
+background-repeat:no-repeat;
+background-position:center center;
+}
+
+#h2 {
+font-family: 'Nanum Gothic', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-size: 36px;
+}
+
+h3 {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+}
+
+.contenedor {
+max-width: 39%;
+margin: 0 auto;
+}
+
+.img {
+width: 100%;
+display: block;
+margin: 0 auto;
+}
+
+footer {
+  background-color: black;
+  color: aliceblue;
+  text-align: center;
+  height: 75px;
+  padding: 30px;
+  font-size: 18px;
+  max-width: 100%;
+  width: 100%;
+}
+
+#especial {
+font-size: 40px;
+font-family: 'Merriweather', serif;
+
+}
+
+h1 {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-size: 55px;
+    max-width: 68%;
+    padding: 300px;
+    margin: 0 auto;
+}
+
+a {
+color: red;
+text-decoration: none;
+}
+
+  
+  @media screen and (max-width: 700px) {
+    .text {
+        font-size: 14px;
+        }
+        #h2 {
+        font-size: 27px;    
+        }
+        h3{
+        font-size: 20px;
+        }
+        h1{
+        font-size: 25px;
+        }
+        #especial {font-size: 20px;
+        }
+    }
+  
+    @media screen and (min-width: 700px) and (max-width: 900px) {
+        .text {
+            font-size: 18px;
+            }
+            #h2 {
+            font-size: 31px;    
+            }
+            h3{
+            font-size: 25px;
+            }
+            h1{
+            font-size: 32px;
+            }
+            #especial {font-size: 30px;
+            }
+            table{
+                width: fit-content;
+                }
+    }
+    
+  
+    @media screen and (min-width: 901px) {
+        .text {
+            font-size: 22px;
+            }
+            #h2 {
+            font-size: 36px;    
+            }
+            h3{
+            font-size: 30px;
+            }
+            h1{
+            font-size: 55px;
+            }
+            #especial {
+            font-size: 40px;
+            }
+        }
+    
+    table {
+    border: 2px #000000 solid;
+    text-align: center;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    
+
+    }
+    td, th {
+    border: 2px #000000 solid;
+    border-collapse: collapse;
+    text-align: center;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    }
